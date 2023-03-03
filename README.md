@@ -3,6 +3,8 @@ Marked Programming Assignment 2 of the "Intermediate Object-Oriented Programming
 
 For this assignment, you need to implement the MutualFund and EmployerSponsoredAccount classes as shown in the class diagram below:
 
+![Project UML Class Diagram](./project_uml_class_diagram.png)
+
 InvestmentAccount
 
 The constructor uses the initial deposit to set the balance field
