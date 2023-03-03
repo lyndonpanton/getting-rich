@@ -24,7 +24,7 @@ namespace ProgrammingAssignment2
         #region Constructors
 
         // remove the /* below
-        /*
+
         /// <summary>
         /// Constructor
         /// </summary>
@@ -35,7 +35,7 @@ namespace ProgrammingAssignment2
         {
             this.interestRate = interestRate;
         }
-        */
+
         // remove the */ above
 
         #endregion

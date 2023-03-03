@@ -34,7 +34,7 @@ namespace ProgrammingAssignment2
                 GetInputValueFromString(input);
 
                 // remove the /* below
-                /*
+
                 // execute selected test case
                 switch (testCaseNumber)
                 {
@@ -162,7 +162,7 @@ namespace ProgrammingAssignment2
                         break;
                 }
 
-                */
+
                 // remove the */ above
 
                 input = Console.ReadLine();

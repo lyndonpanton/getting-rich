@@ -24,16 +24,16 @@ namespace ProgrammingAssignment2
         #region Constructor
 
         // remove the /* below
-        /*
+
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="deposit">initial deposit</param>
         public InvestmentAccount(float deposit)
         {
-        balance = deposit;
+            balance = deposit;
         }
-        */
+
         // remove the */ above
 
         #endregion

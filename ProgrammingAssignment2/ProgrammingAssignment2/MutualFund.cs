@@ -14,8 +14,10 @@ namespace ProgrammingAssignment2
         const float ServiceChargePercent = 0.01f;
 
         #region Contructor
-
-
+        public MutualFund(float deposit) : base(deposit)
+        {
+            
+        }
 
         #endregion
 
@@ -27,7 +29,8 @@ namespace ProgrammingAssignment2
         public override void UpdateBalance()
         {
             // delete code below and replace with your code
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            this.Balance += (this.Balance * 0.06f);
         }
 
         /// <summary>
@@ -39,6 +42,28 @@ namespace ProgrammingAssignment2
             return "Mutual Fund Balance: " + balance;
         }
 
+        public override void AddMoney(float amount)
+        {
+            this.balance += amount * (1 - ServiceChargePercent);
+        }
+
         #endregion
+
+        #region properties
+        public float Balance
+        {
+            get
+            {
+                return this.balance;
+            }
+
+            set
+            {
+                this.balance = value;
+            }
+        }
+
+        #endregion
+
     }
 }

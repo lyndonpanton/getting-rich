@@ -12,6 +12,10 @@ namespace ProgrammingAssignment2
     class EmployerSponsoredAccount : MutualFund
     {
         #region Contructor
+        public EmployerSponsoredAccount(float deposit) : base(deposit)
+        {
+            
+        }
 
 
         #endregion
@@ -25,6 +29,12 @@ namespace ProgrammingAssignment2
         public override string ToString()
         {
             return "Employer-Sponsored Account Balance: " + balance;
+        }
+
+        public override void AddMoney(float amount)
+        {
+            amount *= 2;
+            base.AddMoney(amount);
         }
 
         #endregion
